@@ -2,13 +2,6 @@ using UnityEngine;
 
 public class HOLAmundo : MonoBehaviour
 {
-<<<<<<< Updated upstream
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-       print("Hola mundo");
-        Debug.Log("algo paso");
-=======
    void Awake()
     {
         Debug.Log("Hola desde Awake");
@@ -20,7 +13,6 @@ public class HOLAmundo : MonoBehaviour
        x = 0;
         print("Hola mundo");
        
->>>>>>> Stashed changes
         Debug.LogWarning("algo salio medianamente mal");
         Debug.LogError("algo salio muy mal");
     }
@@ -28,9 +20,6 @@ public class HOLAmundo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-<<<<<<< Updated upstream
-        
-=======
         //x = x + 1;
         //Debug.Log(x);
 
@@ -51,6 +40,5 @@ public class HOLAmundo : MonoBehaviour
     private void OnDisable()
     {
         Debug.LogWarning("El objeto se ha desactivado");
->>>>>>> Stashed changes
     }
 }
