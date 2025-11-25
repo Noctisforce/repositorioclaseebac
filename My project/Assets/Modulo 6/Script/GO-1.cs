@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class GO1 : MonoBehaviour
 {
+    public static GameObject GO1instancia;
     bool estado;
 
 

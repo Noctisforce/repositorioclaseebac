@@ -2,19 +2,20 @@ using UnityEngine;
 
 public class GO3 : MonoBehaviour
 {
-    bool GO1;
-    bool GO2;
+    public static GameObject GO3instancia;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        GO1 = false;
-        GO2 = true;
+        Debug.Log(GO1.GO1instancia);
+        Debug.Log(GO2.GO2instancia);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-      if (GO1 && GO2)
+        if (GO1.GO1instancia && GO2.GO2instancia)
         {
             Color VERDADERO = Color.white;
             GetComponent<MeshRenderer>().material.color = VERDADERO;
@@ -24,7 +25,7 @@ public class GO3 : MonoBehaviour
             Color FALSO = Color.black;
             GetComponent<MeshRenderer>().material.color = FALSO;
         }
-       
+
 
     }
 }
