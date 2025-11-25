@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class GO2: MonoBehaviour
 {
+   public static GameObject GO2instancia;
     bool state;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
