@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class GO1 : MonoBehaviour
 {
-    public static GameObject GO1instancia;
-    bool estado;
+    
+    public static bool estado;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -26,11 +26,13 @@ public class GO1 : MonoBehaviour
         {
             Color VERDADERO = Color.white;
             GetComponent<MeshRenderer>().material.color = VERDADERO;
+            estado = true;
         }
         else
         {
             Color FALSO = Color.black;
             GetComponent<MeshRenderer>().material.color = FALSO;
+            estado = false;
         }
     
     
