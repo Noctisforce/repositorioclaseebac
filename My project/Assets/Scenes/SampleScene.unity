@@ -324,6 +324,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4911765863721348423, guid: 4e8308db56f0c114d9ab79110f3b583e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1891605933}
+    - targetCorrespondingSourceObject: {fileID: 4911765863721348423, guid: 4e8308db56f0c114d9ab79110f3b583e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1891605934}
   m_SourcePrefab: {fileID: 100100000, guid: 4e8308db56f0c114d9ab79110f3b583e, type: 3}
 --- !u!1 &934288117
 GameObject:
@@ -535,11 +538,23 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1891605931}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 634f841883facc345b6d8a1c554d4380, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EjerciciosVariablesMod8
+--- !u!114 &1891605934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891605931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d24f08986e0b7c64887fd8dfe5d4162b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CiclosyArreglos
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
